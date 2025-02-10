@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orders</title>
+  <link rel="stylesheet" href="styles/amazon-header.css">
+  <link rel="stylesheet" href="styles/order.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="amazon-header">
+    <div class="amazon-header-left-section">
+      <a class="amazon-home-button" href="amazon.html">
+        <img src="images/amazon-logo-white.png" class="home-button">
+        <img src="images/amazon-mobile-logo-white.png" class="amazon-mobile-button">
+      </a>
+    </div>
+
+    <div class="amazon-header-middle-section">
+      <input type="text" placeholder="Search" class="search-input js-search-input">
+      <button class="header-search-button js-header-search-button">
+        <img src="images/icons/search-icon.png" class="search-button">
+      </button>
+    </div>
+
+    <div class="amazon-header-right-section">
+      <a class="rno-button" href="order.html">
+        <p class="returns">Returns</p>
+        <p class="rno-text">& Orders</p>
+      </a>
+
+      <a class="cart-button" href="checkout.html">
+        <img src="images/icons/cart-icon.png" class="cart-img">
+        <span class="cart-text">Cart</span>
+        <div class="cart-quantity-container">
+          <div class="cart-quantity js-cart-quantity">0</div>
+        </div>
+      </a>
+
+      <button class="hamburger-menu-button">
+        <img src="images/icons/hamburger-menu.png" class="hamburger-menu">
+      </button>
+      
+    </div>
+  </header>
+
+  <main class="order-main-container">
+    <div class="orders-grid-container js-orders-grid-container">
+      <div class="your-orders-text">Your Orders</div>
+      
+    </div>
+  </main>
+
+  <script src="scripts/order.js" type="module"></script>
+</body>
+</html>

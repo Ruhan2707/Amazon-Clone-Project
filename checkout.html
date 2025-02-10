@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="styles/general-checkout.css">
+  <link rel="stylesheet" href="styles/checkout-header.css">
+  <link rel="stylesheet" href="styles/checkout-main-section.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header class="checkout-header">
+    <div class="checkout-sections-container">
+      <div class="checkout-header-left-section">
+        <a class="amazon-logo-container" href="amazon.html">
+          <img src="images/amazon-logo.png" class="amazon-logo">
+          <img src="images/amazon-mobile-logo.png" class="amazon-logo-mobile">
+        </a>
+      </div>
+  
+      <div class="checkout-header-middle-section">
+        <div class="checkout-text-container">
+          <p class="checkout-text">Checkout (<span class="item-count js-item-count">0 items</span>)</p>
+        </div>
+      </div>
+  
+      <div class="checkout-header-right-section">
+        <img src="/images/icons/checkout-lock-icon.png">
+      </div>
+    </div>
+    
+  </header>
+  
+  <main class="main-section">
+    <div class="review-your-order-text">Review Your Order</div>
+    <div class="cart-info-container">
+      <div class="cart-item-grid js-cart-item-grid">
+        
+      </div>
+
+      <div class="cart-price-container js-cart-price-container">
+
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="scripts/checkout.js"></script>
+</body>
+</html>
