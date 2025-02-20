@@ -19,7 +19,7 @@ function renderItemCount() {
     document.querySelector('.js-cart-item-grid').innerHTML = `
       <div class="view-products-container">
         <p class="cart-empty-text">Your cart is empty.</p>
-        <a class="view-product-button-link" href="amazon.html">
+        <a class="view-product-button-link" href="index.html">
           <div class="view-product-button">View Products</div>
         </a>
       </div>
