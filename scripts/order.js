@@ -127,7 +127,7 @@ function renderOrderSection() {
   else {
     gridSummaryHTML = `
       <div class="no-order-placed-text">No Orders Placed</div>
-      <a class="buy-items-button" href="amazon.html">
+      <a class="buy-items-button" href="index.html">
         <span class="buy-items-text">Buy Items<span>
       </a>
     `;
@@ -164,7 +164,7 @@ if(searchButtonElem) {
   searchButtonElem.addEventListener('click', () => {
     const inputString = document.querySelector('.js-search-input').value;
     if(inputString !== '') localStorage.setItem('inputString', JSON.stringify(inputString));
-    location.replace('./amazon.html');
+    location.replace('./index.html');
   });
 }
 
@@ -173,7 +173,7 @@ if(searchInputElem) {
     if(event.key === 'Enter') {
       const inputString = document.querySelector('.js-search-input').value;
       if(inputString !== '') localStorage.setItem('inputString', JSON.stringify(inputString));
-      location.replace('./amazon.html');
+      location.replace('./index.html');
     }
   });
 }
